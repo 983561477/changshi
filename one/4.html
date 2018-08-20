@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML常用的行级元素</title>
+    </head>
+    <body>
+        <!--链接标签
+                a标签  href属性，跟的是要跳转的网址
+                    target : _blank 在新窗口打开跳转的页面
+        -->
+        <!--<a href="http://www.baidu.com">百度</a>-->
+        <!--路径问题 在实际开发当中建议使用相对路径 ./当前路径 ../上目录-->
+        <!--绝对路径 在windows当中绝对路径的根是我们文件所在的盘符-->
+        <a href="./3.html" target = "_blank">跳转到本地的文件（复习.html）</a>
+    
+        <!--图像标签 img （单标签，不需要闭合）
+            src: 图片的地址（网络资源或者本地资源）
+            alt: 用于图片加载失败的替代文字（必须存在）
+            title: 鼠标停留在图片上的提示信息（可写可不写）
+            width：设置图片的宽度
+            height：设置图片的高度
+            注意：一般我们只给图片设置宽度或者高度，高度或者宽度会等比例放大或者缩小
+        -->
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534609503446&di=2339d7f1f830b2b3693ebfe97bdbee07&imgtype=0&src=http%3A%2F%2Fpic2.ooopic.com%2F10%2F50%2F68%2F98b1OOOPICb9.jpg" width="200px" alt="这是图片标签" title="这是一个傻狮子">
+        <img src="./images/timg.jpg" alt="这是一个傻狮子">
+        <br>
+        <!--文本标签-->
+            <!--加粗 b strong 具有强调意义 斜体i   em：斜体，具有强调意义-->
+            <b>下界：</b> <em>搬血、洞天、</em>（轮海境）化灵、（道宫境）铭m纹(侯)（四极境）、列阵(王)（化龙境）、尊者（人皇）（仙台一重）） <br>
+            <i>上界：</i>神火（神圣、伪神）圣祭（过渡境界，可跳过）、天神（渡过圣祭神王劫者称神王）（圣人）、虚道（圣人王）、斩我（全称斩我明道境）（大圣）、遁一（恭称至尊）（准帝）、至尊（无敌者）（大帝）、极道至尊（天帝）<br>
+            <strong>仙：</strong>真仙（不朽者、长生者、红尘仙）、仙王（不朽之王、葬王）、准仙帝、仙帝（不朽之帝、葬帝） <br>
+        <!--span 无语义的行级元素 一般sapn 标签也是配合css使用 来设置文本当中一部分内容-->
+            <span style="color:red">（仙台二层）、真一（真神）（仙三斩道王者）</span>
+
+        <!--html 当中的实体字符 &gt; 大于号, &lt; 小于号，&copy; &nbsp;空格 -->
+            1 > 2; <br>
+            1&gt;2; <br>
+            1&lt;2; <br>
+            &copy; <br>
+            仙台 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 二层
+
+
+
+
+    </body>
+</html>
