@@ -19,7 +19,11 @@
         .item2{
             width: 100px;
             height: 100px;
-            background-color: green;
+            /*设置边框*/
+            border: 1px solid red;
+        }
+        .bg{
+            background-color: plum;
         }
         /* #id 选择器 通过id属性的值来设置元素的样式 影响范围最小*/
         /* 注意：id在html当中具有唯一性，不能重名*/
@@ -44,7 +48,7 @@
 </head>
 <body>
     <div class="item1" id="box3"></div>
-    <div class="item2"></div>
+    <div class="item2 bg"></div>
     <div class="item1"></div>
     <div id="box1"></div>
     <div id="box2"></div>
