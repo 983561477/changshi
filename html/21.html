@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素类型切换</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            
+            /* 将块元素转换为内联元素*/
+            /*display: inline;*/
+
+            /* 将块元素转换成内联块元素*/
+            display: inline-block;
+        }
+        .box1{
+            background: green;
+        }
+        .box2{
+            background: red;
+        }
+        .box3{
+            background: blue;
+        }
+        span{
+            width: 100px;
+            height: 100px;
+            background: pink;
+            /* 将内联元素转换为块元素*/
+            /*display: block;*/
+            /* 将内联元素转换为内联块元素*/
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <span>啦啦啦</span>
+    <span>啊啊啊</span>
+    <span>哈哈哈</span>
+    <span>嘿嘿嘿</span>
+</body>
+</html>

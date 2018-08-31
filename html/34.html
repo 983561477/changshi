@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+</head>
+<body>
+    <script>
+        // ++ 自增一
+        var a = 1;
+        a++;
+        console.log(a);
+        // -- 自减一
+        a--;
+        console.log(a);
+
+        // 字符串连接 +  当两边的值都为数值类型的时候做算数运算
+        //              当两边的值有一个为字符串的时候就做字符串连接
+        //var str = '1' + 1 + 2;  // 112
+        var str = 1 + 1 + '2';  // 22
+        console.log(str);
+
+        // ===  全等  比较值 也比较类型
+        //var B = 1 == 1; //true
+        //var B = '1' == 1; //true  系统中间做了数据类型转换
+        //var B = 1 === 1; //true
+        var B = 1 === '1'; //false
+        console.log(B);
+    </script>
+</body>
+</html>
